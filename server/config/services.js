@@ -43,22 +43,22 @@
 module.exports = {
   service1: {
     api: '/listings/:id/homesData',
-    url: 'http://localhost:8040',
+    url: 'http://54.151.124.17:8040/',
     bundle: '/gallery/:id/bundle.js',
   },
   service2: {
     api: '/listings/:id/listing',
-    url: 'http://localhost:8030',
+    url: 'http://13.56.19.216:8030/',
     bundle: '/carousel/:id/bundle.js',
   },
   service3: {
     api: '/listings/:id/neighborhood*',
-    url: 'http://localhost:8010',
+    url: 'http://3.138.140.28:8010/',
     bundle: '/reviews/:id/bundle.js',
   },
   service4: {
     api: '/listings/:id/db',
-    url: 'http://localhost:8020',
+    url: 'http://ec2-3-101-152-172.us-west-1.compute.amazonaws.com:8020/',
     bundle: '/mortgage/:id/bundle.js',
   },
 };
