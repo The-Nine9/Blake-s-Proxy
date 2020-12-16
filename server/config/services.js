@@ -43,7 +43,7 @@
 module.exports = {
   service1: {
     api: '/listings/:id/homesData',
-    url: 'http://localhost:8040',
+    url: 'http://54.219.183.71:8040',
     bundle: '/home/:id/bundle.js',
   },
   // service2: {

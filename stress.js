@@ -40,7 +40,7 @@ export default function main() {
 
   let response;
   const id = Math.floor(1 + Math.random() * 10000000);
-  response = http.get(`http://127.0.0.1:8040/home/${id}/homesData`);
+  response = http.get(`http://127.0.0.1:3000/listings/${id}/homesData`);
 
   const checkRes = check(res, {
     'status is 200': (r) => r.status === 200,
